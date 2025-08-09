@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+transcricoes_api.csv
