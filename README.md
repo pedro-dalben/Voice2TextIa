@@ -10,19 +10,17 @@ Ferramenta simples em Python que transcreve arquivos de áudio locais para texto
 ### Instalação
 1. Clone/baixe este repositório.
 2. Instale o ffmpeg (Ubuntu/Debian):
-   ```bash
-sudo apt-get update && sudo apt-get install -y ffmpeg
-   ```
+   ```sudo apt-get update && sudo apt-get install -y ffmpeg```
 3. Crie o ambiente virtual e instale as dependências:
    ```bash
-python3 -m venv .venv
-./.venv/bin/python -m pip install -U pip
-./.venv/bin/pip install -r requirements.txt
+   python3 -m venv .venv
+   ./.venv/bin/python -m pip install -U pip
+   ./.venv/bin/pip install -r requirements.txt
    ```
 4. Configure as variáveis de ambiente:
    - Copie o arquivo de exemplo e preencha sua chave:
      ```bash
-cp .env.example .env
+      cp .env.example .env
      ```
    - Edite `.env` e defina `OPENAI_API_KEY`.
 
