@@ -30,8 +30,7 @@ cp .env.example .env
 1. Coloque seus arquivos de áudio na pasta do projeto.
 2. Formatos suportados: `.ogg`, `.mp3`, `.wav`, `.m4a`.
 3. Execute a transcrição:
-   ```bash
-./.venv/bin/python main.py```
+   ```./.venv/bin/python main.py```
 4. Saída: o arquivo `transcricoes_api.csv` será criado com as colunas `Horario` e `Transcricao`.
 
 Observação: os arquivos são ordenados por um horário extraído do nome no padrão "nome at HH-MM-SS.ext" quando presente. Se não houver esse padrão, o nome do arquivo é usado como fallback.
